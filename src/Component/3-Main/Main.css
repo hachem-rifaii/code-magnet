@@ -1,0 +1,81 @@
+main.flex{
+    gap: 3rem;
+    align-items: start;
+}
+
+
+main .left-section{
+ flex-direction: column;
+ gap: 10px;
+ justify-content: center;
+}
+main section.left-section.flex button{
+    padding: 0.75rem 0 ;
+    width: 11rem;
+    background-color: rgb(36,37,46,1);
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.5;
+    text-transform: capitalize;
+    font-size: 1.05rem;
+    transition: 0.3s;
+}
+main section.left-section.flex button:hover{
+    opacity: 1;
+}
+main section.left-section.flex button.active{
+    font-weight: bold;
+    border: 1px solid var(--blue);
+    opacity: 1;
+}
+main .rigth-section{
+    flex-grow: 1; 
+}
+.card{
+    border: 2px solid rgba(93, 188, 252, 0.3);
+    border-radius: 5px;
+    transition: 0.4s;
+    border-radius: 5px;
+    background-image: linear-gradient(
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05)
+    );
+}
+.card img{
+    border-radius: 3px;
+}
+.card:hover{
+border: 2px solid var(--blue);
+rotate: 1deg;
+scale: 1.01;
+cursor: pointer;
+}
+.card .box{
+    padding: 1rem 0.4rem;
+}
+.card .box .title-card{
+    color: var(--title);
+   
+}
+.card .box .sub-title{
+    color: var(--subtitle);
+    font-size: 0.9rem; 
+    margin-top: 0.7rem;
+    margin-bottom: 1.1rem;
+}
+.card .icon-github, .card .icon-link{
+    font-size: 1.5rem;
+    color: var(--subtitle);
+    transition: .3s;
+}
+.card .icon-github:hover, .card .icon-link:hover{
+    font-size: 1.6rem;
+    color: var(--icon-hover);
+    cursor: pointer;
+}
+.card a.link{
+    font-size: 1rem;
+    color: var(--blue);
+    cursor: pointer;
+    margin-right:12px;
+}

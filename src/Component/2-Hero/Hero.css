@@ -1,0 +1,56 @@
+.hero{
+ margin-top: 3rem ; 
+}
+/* left section */
+section .left-section{
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+section .parent-avatar {
+   gap: 1rem;
+   align-items: end;
+   
+}
+.avatar{
+    width:5.7rem;
+    margin-top: 2rem;
+}
+section .parent-avatar .icon-verified{
+    color: rgb(83, 115, 204);
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+}
+.hero .subtitle{
+    color: var(--subtitle);
+    margin-top: 1.8rem;
+    line-height: 1.65rem;
+}
+ .hero .title{
+    color: var(--title);
+    margin-top: 1.8rem;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+   font-family:  sans-serif;
+}
+section .all-icons{
+    margin-top: 1.8rem;
+    gap: 1rem;
+  
+}
+.all-icons .icons{
+    font-size: 1.5rem;
+    color: var(--subtitle);
+    cursor: pointer;
+}
+.all-icons .icons:hover{
+    color: var(--icone);
+    font-size: 1.6rem;
+    transition: .2s;
+
+}
+
+
+/* right-section =====> animation*/
+
+

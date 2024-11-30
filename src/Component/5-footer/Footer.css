@@ -1,0 +1,27 @@
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.last-section .links{
+    display: flex;
+}
+.last-section ul li{
+    margin: 0 0.5rem;
+}
+.last-section a{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.last-section a:hover{
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.last-section p{
+    color: var(--subtitle);
+    font-size: 0.9rem;
+}
